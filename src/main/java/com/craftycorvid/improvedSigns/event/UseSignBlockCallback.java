@@ -56,7 +56,7 @@ public class UseSignBlockCallback {
                     blockEntityTag.put(front ? "front_text" : "back_text", text);
                     nbt.put("BlockEntityTag", blockEntityTag);
                     sign.setNbt(nbt);
-                    player.sendMessage(Text.literal("Sign text copied to " + sign.getCount() + " signs"), true);
+                    player.sendMessage(Text.literal("Текст скопирован на " + sign.getCount() + " табличек"), true);
                 });
                 return ActionResult.SUCCESS;
             }
