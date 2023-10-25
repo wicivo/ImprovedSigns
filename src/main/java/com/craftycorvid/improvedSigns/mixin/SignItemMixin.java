@@ -71,7 +71,7 @@ public class SignItemMixin extends VerticallyAttachableBlockItem {
             }
             if (!front.isEmpty()) {
                 Text[] tl = front.orElse(null);
-                tooltip.add(Text.literal("Front:"));
+                tooltip.add(Text.literal("Спереди:"));
                 for (Text t : tl) {
                     tooltip.add(t);
                    
@@ -79,7 +79,7 @@ public class SignItemMixin extends VerticallyAttachableBlockItem {
             }
             if (!back.isEmpty()) {
                 Text[] tl = back.orElse(null);
-                tooltip.add(Text.literal("Back:"));
+                tooltip.add(Text.literal("Сзади:"));
                 for (Text t : tl) {
                     tooltip.add(t);
                 }
